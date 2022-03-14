@@ -1,0 +1,249 @@
+.topnav {
+  background-color: #303030;
+  overflow: hidden;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  font-family: 'Orbitron', sans-serif;
+  color: #fd1be0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #fd1be0;
+  color: black;
+  font-family: 'Orbitron', sans-serif;
+}
+h1 {
+    font-weight: 500;
+    font-family: 'Orbitron', sans-serif;
+}
+p, h2,h3,h4,h5,h6,{
+  font-weight: 500;
+    font-family: helvetica, sans-serif;
+}
+
+body {
+    font-family: 'helvetica', sans-serif;
+    font-weight: 400;
+    margin: 20px
+    line-height: 1.5;
+    color: #ffffff;
+    background-color:#1B1C1E
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fd1be0;
+  color: white;
+  text-align: center; 
+}
+  
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows:.33fr .33fr .34fr;  
+  gap: 10px 10px; 
+}
+
+  html {
+    font-size: 1em;
+}
+
+p, li {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1;
+    margin: 0 0 0.5em 0;
+}
+
+h2 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    margin: 1.5em 0 0.5em 0;
+}
+
+h3 {
+    font-size: 2em;
+    line-height: 1;
+    margin: 1.5em 0 0.25em 0;
+}
+
+h4 {
+    font-size: 1.5em;
+    line-height: 1;
+    margin: 1.5em 0 0.5em 0;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 1em;
+    line-height: 1;
+    margin: 1.5em 0 0.5em 0;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 1em 0 0 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+html {
+    box-sizing: border-box;
+ 
+}
+
+.videoWrapper{
+    position: relative;
+    height: 0;
+    /* padding-bottom: 75%; */ /* 4:3 aspect ratio */
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+.videoWrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+}
+img, video {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+  
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+#padding {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
+}
+
+/* start media query 600 px */
+@media (min-width: 600px){
+body {
+   background-color: #1b1c1e; }
+  h1 {
+    font-size: 1.5em;
+    line-height: 1;
+    margin: 0 0 0.5em 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+    font-size: 1em;
+    line-height: 1.2;
+    margin: 1.5em 0 0.5em 0;
+}
+
+h3 {
+    font-size: 2em;
+    line-height: 1;
+    margin: 1.5em 0 0.25em 0;
+}
+
+
+         /* this applies to mobile in landscape and some tablets in portrait */
+
+}/*   end min-width 600 */
+
+  
+@media (min-width: 900px){
+body {
+   background-color:  #1b1c1e; }
+h1 {
+    font-size: 2em;
+    line-height: 1;
+    margin: 0 0 0.5em 0;
+   font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+    font-size: 1.5em;
+    line-height: 1.2;
+    margin: 1.5em 0 0.5em 0;
+}
+
+h3 {
+    font-size: 2em;
+    line-height: 1;
+    margin: 1.5em 0 0.25em 0;
+}
+
+ 
+          /* this applies to tablets */
+}/*   end min-width 900 */
+
+  
+
+    @media (max-width: 1200px){
+body {
+background-color:  #1b1c1e; }
+h1 {
+    font-size: 2em;
+    line-height: 1;
+    margin: 0 0 0.5em 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    margin: 1.5em 0 0.5em 0;
+}
+
+h3 {
+    font-size: 2em;
+    line-height: 1;
+    margin: 1.5em 0 0.25em 0;
+}
+
+ 
+          /* this applies average laptops */
+
+    }/*   end min-width 1200 */
+
+    @media (max-width: 1800px){
+
+          /* this applies to large laptops and desktops */
+
+    }/*   end min-width 1800 */
+
+}
+
+
+
