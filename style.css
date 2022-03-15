@@ -44,17 +44,20 @@ body {
   margin-right: auto;
   width: 50%;
 }
-
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
+  height: 15%;
   width: 100%;
+  
   background-color: #fd1be0;
   color: white;
   text-align: center; 
 }
-  
+.fa {
+font-size: 1.25 em;
+}
 .container {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
@@ -110,7 +113,13 @@ h6 {
     font-weight: 400;
     text-transform: uppercase;
 }
-
+.aboutme {
+  padding-top: 250px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  padding-left: 0px;
+  
+}
 html {
     box-sizing: border-box;
  
@@ -145,11 +154,7 @@ img, video {
   text-decoration: none;
   margin: 5px 2px;
 }
-#padding {
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+
 
 }
 
@@ -168,6 +173,7 @@ h2 {
     font-size: 1em;
     line-height: 1.2;
     margin: 1.5em 0 0.5em 0;
+    font-family: 'Orbitron', sans-serif;
 }
 
 h3 {
